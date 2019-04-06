@@ -1,2 +1,2 @@
-# sandbox
-A Html5 sandbox game
+# Sandbox
+Use your mouse to make sand and watch it fall.

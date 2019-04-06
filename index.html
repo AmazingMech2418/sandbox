@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SandBox</title>
+	<style type="text/css">
+		canvas {
+			width: 100%;
+			height: 100%;
+			background: lightblue;
+		}
+		body,html {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+<canvas id="canvas" onmousedown="mouse = true" onmouseup="mouse = false" onmousemove="getMouse(event)"></canvas>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

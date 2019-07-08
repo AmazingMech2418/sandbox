@@ -34,6 +34,7 @@ window.onload = function() {
 
 				if (noSand) {
 					sand[i] = "sand_" + blockX + "_" + (Number(blockY) + gravity);
+					sandExists["sand_" + blockX + "_" + (Number(blockY))] = false;
 					sandExists["sand_" + blockX + "_" + (Number(blockY) + gravity)] = true;
 				}
 			}

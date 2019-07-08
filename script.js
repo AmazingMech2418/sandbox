@@ -28,7 +28,7 @@ window.onload = function() {
 			if (Number(foo[2]) < (canvas.height - 20)) {
 				var noSand = true;
 				console.log('sandExists.' + "sand_" + blockX + "_" + Number(blockY) + 5);
-				if (eval('sandExists.' + "sand_" + blockX + "_" + Number(blockY) + 5/*0*/)) {
+				if (sandExists["sand_" + blockX + "_" + (Number(blockY) + 5)]) {
 					noSand = false;
 				}
 
